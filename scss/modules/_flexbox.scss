@@ -1,0 +1,38 @@
+.flexbox-1 p {
+  background: #42a5f5;
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
+  padding: 20px;
+}
+
+.container-flex .flexbox-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexbox-2 p {
+  background: #42a5f5;
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
+  padding: 20px;
+}
+
+.container-flex .flexbox-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flexbox-3 p {
+  background: #42a5f5;
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
+  padding: 20px;
+}
+
+.container-flex .flexbox-3 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
